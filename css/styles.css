@@ -17,6 +17,8 @@ body {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /*HEADER START*/
@@ -55,7 +57,7 @@ body {
   color: var(--colorHover);
 }
 
-.nav__register__btn{
+.cta{
   padding: 10px 15px;
   border: none;
   background-color: #000;
@@ -64,12 +66,47 @@ body {
   transition: color, backgroud-color, .5s;
 }
 
-.nav__register__btn:hover{
+.cta:hover{
   background-color: #69f1a1;
   color: #000;
 }
 /*HEADER END*/
 
+/*PORTADA START*/
+main{
+  height: calc(100vh + 500px);
+}
 
+.cover{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.cover__title{
+  font-size: 50px;
+}
+
+.cover__paragraph{
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.cover__video{
+max-width: 90%;
+}
+
+.cover__buttons{
+  display: flex;
+  margin-top: 30px;
+}
+
+.cover__read-more{
+  background-color: #fff;
+  color: #000;
+  margin-left: 20px;
+}
+/*PORTADA END*/
 
 
