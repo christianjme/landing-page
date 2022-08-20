@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
 
 :root {
   --backgroundColor: #f5f5f5;
   --colorHover: #777;
 }
 
-*{
-  font-family: 'Roboto', sans-serif;
+* {
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -53,60 +53,111 @@ body {
   padding: 10px 20px;
 }
 
-.nav__link:hover{
+.nav__link:hover {
   color: var(--colorHover);
 }
 
-.cta{
+.cta {
   padding: 10px 15px;
   border: none;
   background-color: #000;
   color: #fff;
   cursor: pointer;
-  transition: color, backgroud-color, .5s;
+  transition: color, backgroud-color, 0.5s;
 }
 
-.cta:hover{
+.cta:hover {
   background-color: #69f1a1;
   color: #000;
 }
 /*HEADER END*/
 
 /*PORTADA START*/
-main{
+main {
   height: calc(100vh + 500px);
 }
 
-.cover{
+.cover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   margin-top: 30px;
 }
 
-.cover__title{
+.cover__title {
   font-size: 50px;
 }
 
-.cover__paragraph{
+.cover__paragraph {
   font-size: 18px;
   margin-top: 30px;
 }
 
-.cover__video{
-max-width: 90%;
+.cover__video {
+  max-width: 90%;
 }
 
-.cover__buttons{
+.cover__buttons {
   display: flex;
   margin-top: 30px;
 }
 
-.cover__read-more{
+.cover__read-more {
   background-color: #fff;
   color: #000;
   margin-left: 20px;
 }
 /*PORTADA END*/
 
+/* BANNER START*/
+.banner {
+  display: flex;
+  align-items: center;
+  background-color: #121212;
+  position: relative;
+  margin-top: 30px;
+  height: 200px;
+}
 
+.banner__icon-heart,
+.banner__icon-fire {
+  width: 270px;
+}
+
+.banner__icon-heart {
+  filter: drop-shadow(-40px 0 30px rgba(0, 0, 0, 0.5));
+  position: relative;
+  margin-top: 50px;
+}
+
+.banner__text {
+  color: #fff;
+}
+
+.banner__paragraph {
+  margin-bottom: 20px;
+}
+
+.banner__read-more {
+  text-decoration: none;
+  background-color: #121212;
+}
+
+.banner__read-more:hover {
+  color: #69f1a1;
+  background-color: #121212;
+}
+
+.banner__fire {
+  height: 100%;
+  overflow: hidden;
+}
+
+.banner__icon-fire {
+  position: relative;
+  margin-top: -50px;
+  margin-right: 300px;
+  opacity: .7;
+}
+
+/* BANNER END*/
