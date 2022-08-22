@@ -161,7 +161,7 @@ main {
 .banner__icon-fire {
   position: relative;
   margin-top: -50px;
-  margin-right: 300px;
+  /* margin-right: 300px; */
   opacity: .7;
 }
 
